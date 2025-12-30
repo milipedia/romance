@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Tempo Juntos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="top-section">
+
+            <div class="music-player">
+                <img src="capa.jpg" class="cover">
+
+                <div class="info">
+                    <h2 class="title">505</h2>
+                    <p class="artist">Arctic Monkeys</p>
+                </div>
+
+                <audio id="audio" src="musica.mp3"></audio>
+
+                <div class="controls">
+                    <button id="playBtn" class="play-btn">▶</button>
+                </div>
+
+                <input type="range" id="progress" value="0" class="progress">
+            </div>
+
+            <div class="slide-wrapper">
+                <div id="slides" class="slides">
+                    <img src="foto1.png">
+                    <img src="foto2.jpeg">
+                    <img src="foto3.jpeg">
+                </div>
+            </div>
+
+        </div>
+        <div class="playlist-wrapper">
+            <p class="playlist-title">playlist que eu fiz pra você ☕🖤</p>
+
+            <iframe
+                style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/7zBAAh23GW9S0dNoJ4Mriy?utm_source=generator&theme=0"
+                width="100%"
+                height="152"
+                frameBorder="0"
+                allow="clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </div>
+    
+        <div class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <h2>Você tem sido meu sonho de padaria há:</h2>
+        <div id="contador">Carregando...</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
