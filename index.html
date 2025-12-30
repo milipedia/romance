@@ -11,7 +11,6 @@
     <div class="container">
 
         <div class="top-section">
-
             <div class="music-player">
                 <img src="capa.jpg" class="cover">
 
@@ -36,11 +35,10 @@
                     <img src="foto3.jpeg">
                 </div>
             </div>
-
         </div>
+
         <div class="playlist-wrapper">
             <p class="playlist-title">playlist que eu fiz pra você ☕🖤</p>
-
             <iframe
                 style="border-radius:12px"
                 src="https://open.spotify.com/embed/playlist/7zBAAh23GW9S0dNoJ4Mriy?utm_source=generator&theme=0"
@@ -51,7 +49,7 @@
                 loading="lazy">
             </iframe>
         </div>
-    
+
         <div class="dots">
             <div class="dot active"></div>
             <div class="dot"></div>
@@ -61,29 +59,33 @@
         <h2>Você tem sido meu sonho de padaria há:</h2>
         <div id="contador">Carregando...</div>
 
-        <div class="secret-trigger" onclick="toggleCarta()">
-    ☕
-    </div>
+    </div> 
 
-    <div id="carta" class="carta">
-        <p>
-            Obrigada por ser meu lugar seguro,<br>
-            por dividir cafés, jogos e dias
-            (mais noites do que dias) quentes comigo.<br><br>
-
-            Você é meu checkpoint,
-            meu save automático,
-            meu final bom preferido.<br><br>
-
-            Eu te escolheria em todas as timelines possíveis.<br>
-            Para sempre sua patinha.<br><br>
-
-            Eu te amo mil milhões. 🖤🐈‍⬛☕
-        </p>
+    
+    <div class="abrir-carta" onclick="toggleCarta()">
+        ☕🖤
     </div>
 
 
-    </div>
+
+    
+    <div id="carta" class="carta" onclick="toggleCarta()">
+    <p onclick="event.stopPropagation()">
+        Obrigada por ser meu lugar seguro,<br>
+        por dividir cafés, jogos e dias
+        (mais noites do que dias) quentes comigo.<br><br>
+
+        Você é meu checkpoint,
+        meu save automático,
+        meu final bom preferido.<br><br>
+
+        Eu te escolheria em todas as timelines possíveis.<br>
+        Para sempre sua patinha.<br><br>
+
+        Eu te amo mil milhões. 🖤🐈‍⬛☕
+    </p>
+</div>
+
 
     <script src="script.js"></script>
 </body>
