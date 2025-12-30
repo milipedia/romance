@@ -91,3 +91,8 @@ progress.addEventListener("input", () => {
 audio.addEventListener("ended", () => {
     playBtn.textContent = "▶";
 });
+function toggleCarta() {
+    const carta = document.getElementById("carta");
+    carta.style.display = carta.style.display === "flex" ? "none" : "flex";
+}
+
